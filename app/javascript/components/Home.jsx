@@ -11,7 +11,7 @@ export default () => (
     <Content style={{ padding: "0 50px" }}>
       <div className="site-layout-content" style={{ margin: "100px auto" }}>
         <h1>Cole's Bike Shop Inventory</h1>
-        <Beers />
+        <Bikes />
       </div>
     </Content>
     <Footer style={{ textAlign: "center" }}>Cole Cochran ©2023.</Footer>

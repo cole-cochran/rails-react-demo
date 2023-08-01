@@ -80,7 +80,7 @@ class AddBikeModal extends React.Component {
 
             <Form.Item
               name="price"
-              label="price"
+              label="Price"
               rules={[
                 {
                   required: true,
