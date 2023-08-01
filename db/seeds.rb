@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Bike.create(brand: 'Revel', model: 'Rascal', price: 5500, quantity: 9)
+Bike.create(brand: 'Specialized', model: 'StumpJumper', price: 4000, quantity: 12)
+Bike.create(brand: 'Revel', model: 'Rail', price: 5200, quantity: 6)
+Bike.create(brand: 'Trek', model: 'Fuel', price: 3200, quantity: 7)
+Bike.create(brand: 'Cannondale', model: 'Jekyll', price: 4000, quantity: 1)
+Bike.create(brand: 'Revel', model: 'Ranger', price: 4900, quantity: 3)
+Bike.create(brand: 'Canyon', model: 'Spectral', price: 2999, quantity: 4)
+Bike.create(brand: 'Salsa', model: 'Rustler', price: 4500, quantity: 2)
+Bike.create(brand: 'Salsa', model: 'Cutthroat', price: 5000, quantity: 1)
+Bike.create(brand: 'Surly', model: 'Krampus', price: 2000, quantity: 5)
