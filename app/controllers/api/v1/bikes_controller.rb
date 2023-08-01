@@ -1,4 +1,4 @@
-class Api::V1::BikesControllerController < ApplicationController
+class Api::V1::BikesController < ApplicationController
   before_action :set_bike, only: [:show, :edit, :update, :destroy]
 
   # GET /bikes

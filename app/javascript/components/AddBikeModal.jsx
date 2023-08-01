@@ -65,7 +65,21 @@ class AddBikeModal extends React.Component {
                 { required: true, message: "Please input your bike brand!" },
               ]}
             >
-              <Input placeholder="Input your bike brand" />
+              <Select
+                showSearch
+                placeholder="Select your bike brand"
+                optionFilterProp="children"
+                style={{ width: "100%" }}
+              >
+                <Option value="Revel">Revel</Option>
+                <Option value="Specialized">Specialized</Option>
+                <Option value="Trek">Trek</Option>
+                <Option value="Cannondale">Cannondale</Option>
+                <Option value="Canyon">Canyon</Option>
+                <Option value="Salsa">Salsa</Option>
+                <Option value="Surly">Surly</Option>
+                <Option value="Other">Other</Option>
+              </Select>
             </Form.Item>
 
             <Form.Item
@@ -88,21 +102,7 @@ class AddBikeModal extends React.Component {
                 },
               ]}
             >
-              <Select
-                showSearch
-                placeholder="Select your bike brand"
-                optionFilterProp="children"
-                style={{ width: "100%" }}
-              >
-                <Option value="Revel">Revel</Option>
-                <Option value="Specialized">Specialized</Option>
-                <Option value="Trek">Trek</Option>
-                <Option value="Cannondale">Cannondale</Option>
-                <Option value="Canyon">Canyon</Option>
-                <Option value="Salsa">Salsa</Option>
-                <Option value="Surly">Surly</Option>
-                <Option value="Other">Other</Option>
-              </Select>
+              <Input placeholder="Please add price for new bike!" />
             </Form.Item>
 
             <Form.Item
