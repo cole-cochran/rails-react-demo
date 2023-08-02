@@ -41,9 +41,13 @@ Bike.create(brand: 'Trek', model: 'Fuel', price: 3200, quantity: 7)
 Bike.create(brand: 'Cannondale', model: 'Jekyll', price: 4000, quantity: 3)
 Bike.create(brand: 'Revel', model: 'Ranger', price: 4900, quantity: 3)`
 
+### GitHub Projects to streamline the development process and track bugs
+
+[Projects](https://github.com/users/cole-cochran/projects/1)
+
 ### Usage
 
-This appliation has a bike shop inventory with bikes, prices, and brands available in inventory.Inventory can be removed, and updated to the database via the frontend.
+This application has a bike shop inventory with bikes, prices, and brands available in inventory. Inventory can be removed, and updated to the database via the frontend.
 
 ### License
 
